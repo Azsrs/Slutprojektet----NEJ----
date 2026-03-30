@@ -1,0 +1,30 @@
+.plaster-regular {
+  font-family: "Plaster", system-ui;
+  font-weight: 400;
+  font-style: normal;
+}
+
+body {
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 4vh;
+}
+
+h1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "plaster";
+  color: white;
+}
+
+header {
+  background-color: #757575;
+  display: flex;
+  justify-content: stretch;
+  
+}
+
+nav {
+  grid-column: 1/1;
+  grid-row: 1/2;
+}
