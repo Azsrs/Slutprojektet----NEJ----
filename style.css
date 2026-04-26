@@ -4,6 +4,14 @@
   font-style: normal;
 }
 
+
+.pixelify-sans-regular {
+  font-family: "Pixelify Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
 body {
   display: grid;
   grid-template-columns: 1fr;
@@ -44,12 +52,30 @@ main {
   
 }
 
+#Skoruta2 {
+  display: none;
+}
+
+#Skoruta3 {
+  display: none;
+}
+
 img {
   max-width: 50%;
   max-height: 50%;
-  
 }
 
 footer {
+  font-family: "Pixelify Sans", sans-serif;
   background-color: #BFBBBB;
+  text-decoration: none; 
+}
+
+footer, a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  text-decoration: none; 
+  color: white;
 }
