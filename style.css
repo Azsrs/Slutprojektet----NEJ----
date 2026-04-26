@@ -39,7 +39,7 @@ main {
   display: flex;
   justify-content: center;
   align-items: center;
-  
+
 }
 
 #Skoruta {
@@ -47,6 +47,8 @@ main {
   justify-content: center;
   padding-top: 10%;
   padding-bottom: 10%;
+  max-width: 600px;
+  margin: 0 auto;
 }
 
 #Skoruta2 {
@@ -64,11 +66,17 @@ main {
   max-height: 50%;
 }
 
+#Skoruta2 img {
+  border: 20px solid #BCBCBC;
+  border-radius: 20px;
+  max-width: 50%;
+  max-height: 50%;
+}
+
 #KöpaSko {
   display: flex;
   flex-direction: column;
   align-items: center;
-  gap: 20px;
 }
 
 #köpdelen {
@@ -99,14 +107,35 @@ main {
 footer {
   font-family: "Pixelify Sans", sans-serif;
   background-color: #BFBBBB;
-  text-decoration: none; 
+  text-decoration: none;
 }
 
-footer, a {
+footer,
+a {
   display: flex;
   justify-content: center;
   align-items: center;
   height: 100%;
-  text-decoration: none; 
+  text-decoration: none;
   color: white;
+}
+
+@media screen and (min-width: 641px)and (max-width: 1007px) {
+  #Skoruta {
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    max-width: none;
+  }
+
+  #Skoruta2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-top: 10%;
+    padding-bottom: 10%;
+    max-width: 600px;
+  }
+
 }
