@@ -43,13 +43,10 @@ main {
 }
 
 #Skoruta {
-  background-color: #BCBCBC;
   display: flex;
   justify-content: center;
   padding-top: 10%;
   padding-bottom: 10%;
-  gap:50px;
-  
 }
 
 #Skoruta2 {
@@ -60,7 +57,9 @@ main {
   display: none;
 }
 
-img {
+#Skoruta img {
+  border: 20px solid #BCBCBC;
+  border-radius: 20px;
   max-width: 50%;
   max-height: 50%;
 }
